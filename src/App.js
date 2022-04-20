@@ -1,3 +1,11 @@
+import DummyComment from "./components/comments/DummyComment";
+
 export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main className="bg-gradient-to-br from-blue-200/75 via-purple-400 to-blue-600 flex items-center justify-center overflow-hidden h-screen">
+      <div className='border w-5/6 max-w-md flex flex-col gap-4 overflow-auto'>
+        <DummyComment />
+      </div>
+    </main>
+  );
 }
