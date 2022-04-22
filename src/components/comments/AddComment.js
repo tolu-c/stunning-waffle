@@ -51,6 +51,14 @@ function AddComment(props) {
             name="comment"
             ref={commentRef}
           ></textarea>
+          {/* <textarea
+            className="w-full basis-full p-2 rounded border border-gray-300 placeholder:text-gray-600 text-gray-900 font-normal text-base md:basis-5/6 md:order-2 md:h-24"
+            placeholder="Add a comment..."
+            name="comment"
+            ref={commentRef}
+          ></textarea> */}
+          {/* <textarea placeholder='Add a comment'></textarea> */}
+          <input type="text" />
           <img
             src={man}
             alt="man"
